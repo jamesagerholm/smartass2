@@ -1,0 +1,322 @@
+body {
+		}
+
+.container{ 
+	width:100%}
+.header{
+	width:100%;
+	background-color: blue;
+	margin-bottom: 10%;
+	height: 5%;
+}
+.headerContent{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	text-align:center;
+	background-image: url("smartasslogo2.jpg");
+	background-repeat:repeat;
+	background-size: 50px 50px; 	
+}
+	.nav {
+
+	height:30px;
+	background:linear-gradient( black, white, black);
+	border-width: 25px;
+	margin-bottom: 0%;
+	height: 20%;
+	font-size: 14px;
+
+	}
+
+
+	.nav ul {
+	margin:0;
+	padding:0;
+	}
+	.nav ul li {
+	list-style: none;
+	}
+
+	.nav ul li a{
+	text-decoration: none;
+	float: left;	
+	display: block;
+	padding: 10px 10px;
+
+	}
+
+/*body{
+		color: skyblue;
+	
+}
+
+	.header{
+	width:100%;
+	background: linear-gradient(to left, orange, white);
+
+	padding-top: 10%;
+
+	height: 5px;
+	
+	
+
+	}*/
+	
+/*	.headerContent{
+	width: 100%;
+	height: 60px;
+	margin: 0 auto;
+	text-align:center;
+	background-image: url("smartasslogo2.jpg");
+	background-repeat:repeat;
+	background-size: 50px 50px; 			
+}
+	.headerContent a img{
+	width:10px;
+	height:auto;
+	margin: 0px;
+	display: block;
+	background-color: white;
+	
+	}*/
+	/*.nav {
+
+	height:30px;
+	background:linear-gradient(black, white, black);
+	border-width: 25px;
+	margin-bottom: 0%;
+	height: 20%;
+	font-size: 14px;
+
+	}
+
+
+	.nav ul {
+	margin:0;
+	padding:0;
+	}
+	.nav ul li {
+	list-style: none;
+	}
+
+	.nav ul li a{
+	text-decoration: none;
+	float: left;	
+	display: block;
+	padding: 10px 10px;
+
+	}*/
+
+	.jpg{
+	display: flex;
+	font-size:20px;
+	color:black;
+	text-align: center;
+	width: 0%;
+	height: 0%;
+	background-color:green;
+	border-radius: 20px;
+	border-color:green;
+	text-align: center;
+	position: relative;
+	margin-right: 300px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+
+
+
+	}
+
+	.image{
+		display: flex;
+		margin-left: 40%;
+		margin-bottom: 1%;
+		margin-top: 8%;
+		box-sizing: border-box;
+		
+	}
+
+	.box{
+	margin-top: 100%; 
+	display: flex;
+	margin-left: 50px;
+	display:flex;
+	display:inline-block;
+	flex-direction:row;
+	margin-right:auto;
+	border-radius:0px;
+	border-style: solid;
+	text-align: center;
+	
+	padding: 0px;		
+	width: auto;
+	height: auto;
+	background-color:white;
+	justify-content: center;
+	box-sizing: border-box;
+	font-size: 16px;
+		}
+
+	.boxY{
+	margin-top:10%;
+	display: block;
+	margin:center;
+	display:flex;
+	display:inline-block;
+	flex-direction:row;
+	margin-right:auto;
+	border-radius:0px;
+	border-style: solid;
+	text-align: center;
+	
+	padding: 0px;		
+	width: auto;
+	height: auto;
+	background-color:white;
+	justify-content: center;
+	box-sizing: border-box;
+	font-size: 16px;
+		}
+
+		.boxZ{
+	margin-top:20%;
+	display: flex;
+
+	display:flex;
+	display:inline-block;
+	flex-direction:row;
+	margin-right:auto;
+	border-radius:0px;
+	border-style: solid;
+	text-align: center;
+	
+	padding: 0px;		
+	width: auto;
+	height: auto;
+	background-color:white;
+	justify-content: center;
+	box-sizing: border-box;
+	font-size: 16px;
+		}
+
+	.boxbutton{
+		display: flex;
+		display: inline-block;
+		border-radius: 4px;
+		color: white;
+		border-style: solid;
+		border-width: 2px;
+		padding: 2px;
+		width: 100%;
+		text-align: center;
+		background-color: orange;
+		text-decoration: none;
+
+
+	}
+
+
+	.listbutton{
+	display: flex;
+	display: inline-block;
+	box-sizing:border-box;
+	border-radius: 4px;
+	width: 100%;
+	height: 20%;
+	margin-top: 20px;
+	background-color: orange;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+	padding-left:100px;
+
+	}
+
+
+	.list{
+
+
+	margin-top: 0px;
+	display:flex;
+	flex-direction:row;
+	width: 100%;
+	height: 100%;
+	background:linear-gradient(white);
+	padding: 10px;
+	justify-content: center;
+	font-size: 16px;
+	box-sizing: border-box;			
+	border-style: solid;
+	border-width: 5px;
+	border-color: blue;		
+	margin-bottom: 5px;
+	margin-right: 200px;
+	}	
+	.table{
+	display:flex;
+	flex-direction:row;
+	margin-right:auto;
+	margin-left:auto;
+	width: 100%;
+	height: 140px;
+	background:white;
+	border: 0;
+	justify-content: center;
+	color: white;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 100px;
+	border-style: solid;
+	border-width: 50px;
+	border-color: black;	
+	}
+	
+	.table th{
+	border-bottom: 1px solid;
+	padding: 2px;
+	text-align: center;
+	}
+
+	.table td{
+	padding: 2px;
+	text-align: center;
+	}
+
+
+	.elixir{
+
+
+	display:flex;
+	display:inline-block;
+	text-align:center;
+	flex-direction:row;
+	border-color: black;
+	border-width: 2px;
+	width: 100%;
+	height: 40%;
+	background: white;
+
+	font-size: 12px;
+	justify-content:center;
+/*	font-color:auto;*/
+	
+	
+	margin-bottom: 1%;
+/*	box-sizing:border-box;*/
+
+	margin-top:1%;
+	margin-left: auto;
+	margin-right:auto;
+	font-size: 16px;
+
+	}
+
+	
+
+
+
+
+
+
+
